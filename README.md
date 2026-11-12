@@ -13,7 +13,7 @@ The system includes multiple healthcare modules, including patient management, a
 
 This was a collaborative team project. My primary responsibility was developing the Dental Clinic Module and translating clinical dental workflows into a functional digital system.
 
-I contributed to implementing dental-specific functionality and integrating the dental module into the wider healthcare information system.
+I contributed to implementing dental-specific functionalities, including integrating the AI-based dental caries detection module into the broader healthcare information system.
 
 ## Technologies
 
