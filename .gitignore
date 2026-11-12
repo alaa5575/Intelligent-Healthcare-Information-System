@@ -1,18 +1,48 @@
-# Virtual Environment
+
+# Virtual Environments
 venv/
 env/
 .venv/
+ENV/
 
-# Environment variables & secrets
+# Environment variables and secrets
 .env
-instance/
+.env.*
+!.env.example
+.envrc
 
-# Python bytecode
+# Instance and local databases
+instance/
+database/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Database
-*.db
-*.sqlite3
-# Exclude dental segmentation model
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+tempCodeRunnerFile.py
+
+# AI model excluded by project owner
 services/ai/dental/model/dental_ai_v2.keras
